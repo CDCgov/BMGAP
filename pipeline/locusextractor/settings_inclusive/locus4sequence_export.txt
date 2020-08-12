@@ -1,0 +1,4 @@
+#Full-length sequences are available for these genes
+nadA
+nhbA
+fHbp

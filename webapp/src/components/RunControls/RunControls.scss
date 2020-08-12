@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  max-width: 250px;
+  min-width: 250px;
+}
+
+.run-control-container {
+  background-color: #f4f4f4;
+  min-width: 250px;
+  max-width: 250px;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0.25);
+  z-index: 99;
+  overflow: auto;
+  padding-top: 90px;
+  padding-bottom: 1.5rem;
+}
+.filter-title {
+  font-size: 1.2rem;
+}
+
+.filter-label {
+  margin-bottom: 0.1rem;
+}
+
+.toggle-left {
+  border-left: solid #aaa;
+  border-bottom: solid #aaa;
+}
+
+.toggle-right {
+  border-right: solid #aaa;
+  border-bottom: solid #aaa;
+}
+
+.empty-toggle:hover {
+  cursor: default;
+}

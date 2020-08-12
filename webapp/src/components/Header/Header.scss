@@ -1,0 +1,26 @@
+.main-header {
+  box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+.header-text {
+  color: #fff;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.header-subtext {
+  font-family: "Ubuntu", sans-serif;
+  color: #bbb;
+}
+
+.logo {
+  border: 1px solid #bbb;
+  border-radius: 100%;
+  box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.5);
+}

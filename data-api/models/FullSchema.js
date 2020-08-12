@@ -1,0 +1,133 @@
+var mongoose = require('mongoose');
+
+// model ===========================
+var FullSchema = mongoose.Schema({
+  Run_ID: String, 
+  Lab_ID: String, 
+  identifier: String,
+  Assembly_ID:String,
+  assemblyPath: String,
+  serogrouping: {
+    Infer: String, 
+    baseSG: String, 
+    gene1: String, 
+    gene2: String, 
+    gene3: String, 
+    gene4: String, 
+    gene5: String, 
+    gene6: String, 
+    gene7: String
+  }, 
+  serotyping: {
+    ST: String, 
+    _cs1: String, 
+    _cs2: String, 
+    _cs3: String, 
+    _cs4: String, 
+    _cs5: String, 
+    _cs6: String, 
+    _cs7: String, 
+    _cs8: String, 
+    bexA: String, 
+    bexB: String, 
+    bexC: String, 
+    bexD: String, 
+    hcsA: String, 
+    hcsB: String,
+  },
+  mash: {
+    Top_Species: String,
+    Notes: String,
+    Mash_Dist: String,
+    Mash_P_value: String,
+    Mash_Hash: String,
+    Mash_Entry: String,
+    Mash_Entry_Source: String,
+  },
+  MLST: {
+    Analysis_Time: String, 
+    Analysis_User: String, 
+    Analysis_Version: String, 
+    FHbp_protein_subvariant_Novartis: String, 
+    FHbp_protein_subvariant_Oxford: String, 
+    FHbp_protein_subvariant_Pfizer: String, 
+    FHbp_subfamily: String, 
+    FetA: String, 
+    Filename: String, 
+    Hi_MLST_ST: String, 
+    Hi_MLST_adk: String, 
+    Hi_MLST_atpG: String, 
+    Hi_MLST_frdB: String, 
+    Hi_MLST_fucK: String, 
+    Hi_MLST_mdh: String, 
+    Hi_MLST_pgi: String, 
+    Hi_MLST_recA: String, 
+    Lab_ID: String, 
+    NadA_Protein_subvariant_Novartis: String, 
+    NhbA_Protein_subvariant_Novartis: String, 
+    Nm_MLST_ST: String, 
+    Nm_MLST_abcZ: String, 
+    Nm_MLST_adk: String, 
+    Nm_MLST_aroE: String, 
+    Nm_MLST_cc: String, 
+    Nm_MLST_fumC: String, 
+    Nm_MLST_gdh: String, 
+    Nm_MLST_pdhC: String, 
+    Nm_MLST_pgm: String, 
+    PorA_VR1: String, 
+    PorA_VR2: String, 
+    PorA_type: String, 
+    PorB_type: String, 
+    Unique_ID: String, 
+    fHbp_DNA_allele_Novartis: String, 
+    fHbp_DNA_allele_Oxford: String, 
+    fHbp_DNA_allele_Pfizer: String, 
+    nadA_PCR: String
+  },  
+  PMGA:{
+    filejson : String,
+    filegff  : String,
+  },
+  Serogroup :{
+    Query : String,
+    SG : String,
+    Genes_Present : String,
+    Notes : String,
+  },
+  Serotype :{
+    Query : String,
+    ST : String,
+    Genes_Present : String,
+    Notes : String,
+  },
+  cleanData : {
+    Bases_In_Contigs :String,
+    Contig_Count :String,
+    N50 : String,
+    N90 : String,
+    Mean_Coverage : String,
+    Ambiguous_nucleotides : String,
+    Mean_Coverage_raw : String,
+    HalfCov_Contig_Bases: String,
+    Bases_In_Contigs_raw: String,
+    HalfCov_Contig_Count: String,
+    Status: String,
+  },
+  PMGATyping :{
+    Serogroup : [{
+      baseSG: String,
+      predicted_sg : String,
+
+    }],
+    Serotype :[{
+      baseST: String,
+      predicted_st : String,
+    }],
+
+  },
+
+
+}, {collection : 'internal'});
+
+
+module.exports = mongoose.model('FullSchema',FullSchema);

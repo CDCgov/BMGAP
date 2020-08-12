@@ -1,0 +1,20 @@
+locus	header
+fHbp	Novartis_variant_family
+fHbp	Pfizer_subfamily
+fHbp	Pfizer_variant
+fHbp	modular_group
+fHbp	segment_A
+fHbp	segment_B
+fHbp	segment_C
+fHbp	segment_D
+fHbp	segment_E
+fHbp	comments
+fHbp	flags
+nadA	comments
+nadA	NadA_peptide
+nadA	NadA_variant
+nadA	flags
+nhbA	comments
+nhbA	NHBA_peptide
+nhbA	flags
+

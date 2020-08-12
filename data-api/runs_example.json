@@ -1,0 +1,10 @@
+{
+  "_id": "5ef13d48bee4adea74b359e0",
+  "run": "200619_M03282_MiSeq_DM012",
+  "samples": 32,
+  "sequencer": "M03282",
+  "submitter": "BML",
+  "date": "2020-06-22T19:22:48.644Z",
+  "analysis_running": false,
+  "samples_running": -2
+}

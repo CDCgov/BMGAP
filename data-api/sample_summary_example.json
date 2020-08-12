@@ -1,0 +1,18 @@
+{
+  "_id": "5ef158e5669794f5c61fc045",
+  "identifier": "BM42572",
+  "Lab_ID": "M54336-DM012G02_S15",
+  "Assembly_ID": "M54336-DM012G02_S15",
+  "Run_ID": "200619_M03282_MiSeq_DM012",
+  "QC_flagged": false,
+  "Submitter": "BML",
+  "assemblyPath": "/scicomp/groups/OID/NCIRD/DBD/MVPDB/ML/BMGAP/Instruments/BML_MiSeq/200619_M03282_MiSeq_DM012/AssemblyCleanup/M54336-DM012G02_S15_cleaned.fasta",
+  "MLST": "11",
+  "cc": "CC11",
+  "sample_order": "15",
+  "Species": "Neisseria_meningitidis",
+  "sequence_flagged": false,
+  "assembly_flagged": false,
+  "sequencer": "M03282",
+  "Serogroup": "Y"
+}

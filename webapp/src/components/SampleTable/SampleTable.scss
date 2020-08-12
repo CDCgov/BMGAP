@@ -1,0 +1,63 @@
+.sample-name {
+  cursor: pointer;
+  color: black;
+  &:hover {
+    color: steelblue;
+  }
+}
+
+.word-breaker {
+  word-break: break-all;
+}
+
+.sample-header {
+  cursor: pointer;
+}
+
+.sort-icons {
+  font-size: 0.7rem;
+}
+
+.sort-icon-off {
+  color: rgba($color: #000000, $alpha: 0.3);
+}
+
+.sort-icon-on {
+  color: rgba($color: #000000, $alpha: 1);
+}
+
+.sample-row-l {
+  min-width: 10rem;
+}
+
+.sample-row-m {
+  min-width: 8rem;
+}
+
+.sample-row-s {
+  min-width: 5rem;
+}
+
+.download-options-link {
+  cursor: pointer;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.icon-warning {
+  font-size: 1.15rem;
+}
+
+.ghost-box {
+  background-color: darkseagreen;
+  width: 250px;
+  text-align: center;
+  min-width: 250px;
+}
+
+.sample-container {
+  overflow: auto;
+  height: 100vh;
+  padding-top: 90px;
+}

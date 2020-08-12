@@ -1,0 +1,59 @@
+.ghost-box {
+  background-color: darkseagreen;
+  width: 250px;
+  text-align: center;
+  min-width: 250px;
+}
+
+.sample-container {
+  overflow: auto;
+  height: 100vh;
+  padding-top: 90px;
+}
+
+.sample-control-container {
+  background-color: #f4f4f4;
+  min-width: 250px;
+  max-width: 250px;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0.25);
+  z-index: 99;
+  overflow: auto;
+  padding-top: 90px;
+  padding-bottom: 1.5rem;
+}
+
+.back-btn {
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  background-color: rgba(29, 73, 185, 1);
+  color: #ebebeb;
+}
+
+@page {
+  size: auto;
+  margin: 10mm, 10mm, 10mm, 10mm;
+}
+
+@media print {
+  body {
+    margin: 0px;
+  }
+  .sample-container {
+    overflow: none;
+    height: auto;
+    padding-top: 0px;
+  }
+  .container {
+    max-width: none;
+  }
+  .back-button {
+    display: none !important;
+  }
+  .card {
+    break-inside: avoid;
+  }
+}

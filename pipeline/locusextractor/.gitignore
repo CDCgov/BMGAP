@@ -1,0 +1,10 @@
+/AmpliconExtractor_*
+/LocusExtractor_*
+/LE_*
+/__pycache__/*
+/temp/*
+/reference_sequences/*
+/reference_sequences/
+/settings_AMPLICON/
+/lookupTables_x/
+/__pycache__/

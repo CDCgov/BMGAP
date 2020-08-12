@@ -1,0 +1,155 @@
+$b-height: 1.15em;
+$el-size: 3vh;
+$DNA_scale: 0.20; //divides '$el-size'
+$t: 2.1s;
+$td: -0.89;
+
+$c_a : #1d49b9 #699ee4 rgb(245, 247, 249); // top / bottom / BG 
+$c2_a: #5876bd #6a99d6; // Fade-anim colors
+
+$ease-circ: cubic-bezier(0.42 , 0, 0.58, 1);
+
+.spinner-container {
+    height: 10%;
+    width: 100%;
+}
+
+.DNA_cont {
+  display: inline-block;
+  position: relative;
+  transform: scale($DNA_scale);
+}
+
+.nucleobase {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+//  width: 1px; height: $el-size*2.75;
+//  background: transparent;
+//  box-shadow: $el-size*0.475 $el-size*-0.85 0 rgba(0,0,0,0.2);
+  
+  &:not(:last-child){
+    margin-right: $el-size*1.62;
+  }
+  
+  &:before, &:after {
+    content: "";
+    display: inline-block;
+    width: $el-size;
+    height: $el-size;
+    border-radius: 50%; 
+    
+    position: absolute;
+  }
+  
+  @for $i from 1 through 10 {
+    &:nth-child(#{$i}) {
+       // animation: animDotBar $t $ease-circ infinite;
+        
+        animation-delay: $i*($td*$t);
+      &:before {
+       // transform: translateY(-200%);
+
+        animation: animBefore $t $ease-circ infinite;
+        
+        animation-delay: $i*($td*$t);
+
+        background-color: nth($c_a, 1);
+      }
+
+      &:after {
+       // transform: translateY(200%);
+
+        animation: animAfter $t $ease-circ infinite;
+        
+        animation-delay: $i*($td*$t)  ;
+
+        background-color: nth($c_a, 2);
+        
+      //  mix-blend-mode: multiply;
+      }
+    }
+  }
+}
+
+
+@keyframes animBefore {
+  0% {
+    top: $el-size *-2;
+    z-index: 1;
+  }
+  
+  25% {
+    transform: scale(1.2) ;
+    z-index: 1;
+  }
+  
+  50% {
+   // background-color: nth($c_a, 1) ;
+    top: $el-size *2;
+    z-index: -1;
+  }
+  
+  75% {
+    background-color: nth($c2_a, 1);
+    transform: scale(0.8) ;
+    z-index: -1;
+  }
+  
+  100% {
+    
+    top: $el-size *-2;
+    z-index: -1;
+  }
+}
+
+@keyframes animAfter {
+  0% {
+    top: $el-size *2;
+    z-index: -1;
+  }
+  
+  25% {
+    background-color: nth($c2_a, 2) ;
+    transform: scale(0.8) ;
+    z-index: -1;
+  }
+  
+  50% {
+  //  background-color: nth($c_a, 2) ;
+    top: $el-size *-2;
+    z-index: 1;
+  }
+  
+  75% {
+    transform: scale(1.2) ;
+    z-index: 1;
+  }
+  
+  100% {
+    top: $el-size *2;
+    z-index: 1;
+  }
+}
+
+@keyframes animDotBar { // NOT USED
+  0% {
+ height: $el-size*2.75;
+  }
+  
+  25% {
+    height: 0;
+  }
+  
+  50% {
+height: $el-size*2.75;
+  }
+  
+  75% {
+  height: 0;
+  }
+  
+  100% {
+    height: $el-size*2.75;
+  }
+}

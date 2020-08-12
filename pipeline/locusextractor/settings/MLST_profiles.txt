@@ -1,0 +1,2 @@
+Nm http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadProfiles&scheme_id=1
+Hi http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_hinfluenzae_seqdef&page=downloadProfiles&scheme_id=1

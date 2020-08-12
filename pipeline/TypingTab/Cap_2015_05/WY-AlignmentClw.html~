@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<table style="width:100%">
+   <tr>
+<tr>MUSCLE (3.8) multiple sequence alignment</tr>
+<tr></tr>
+<tr></tr>
+<tr>W_csw_2         ATGGCTGTTATTATATTTGTTAACGGAATTCGGGCTGTAAATGGCCTTGTTAAATCATCT</tr>
+<tr>Y_csy_1         ATGGCTGTTATTATATTTGTTAACGGAATTCGGGCTGTAAATGGCCTTGTTAAATCATCT</tr>
+<tr>               ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         ATCAATACTGCAAACGCTTTTGCTGAAGAAGGACTGGATGTTCATTTAATTAATTTTGTT</tr>
+<tr>Y_csy_1         ATCAATACTGCAAACGCTTTTGCTGAAGAAGGACTGGATGTTCATTTAATTAATTTTGTT</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         GGCAATATTACTGGAGCAGAGCATTTATACCCCCCATTCCACTTACATCCCAATGTCAAA</tr>
+<tr>Y_csy_1         GGCAATATTACTGGAGCAGAGCATTTATCCCCCCCATTCCACTTACATCCCAATGTCAAA</tr>
+<tr>                **************************** *******************************</tr>
+<tr></tr>
+<tr>W_csw_2         ACCTCCAGCATCATAGATTTATTTAATGACATTCCAGAAAATGTTAGCTGCCGAAATACT</tr>
+<tr>Y_csy_1         ACCTCCAGCATCATAGATTTATTTAATGACATTCCAGAAAATGTTAGCTGCCGAAATATT</tr>
+<tr>                ********************************************************** *</tr>
+<tr></tr>
+<tr>W_csw_2         CCTTTTTATTCTATTCATCAACAATTCTTCAAAGCTGAATATAGTGCCCACTATAAGCAT</tr>
+<tr>Y_csy_1         CCTTTTTATTCTATCCATCAACAATTCTTCAAAGCCGAATACAGTGCCCACTATAAGCAT</tr>
+<tr>                ************** ******************** ***** ******************</tr>
+<tr></tr>
+<tr>W_csw_2         GTTTTGATGAAAATTGAATCTTTATTATCTGCAGAAGATAGCATTATCTTCACTCATCCT</tr>
+<tr>Y_csy_1         GTTTTGATGAAAATTGAATCTTTATTATCTGAAGAAGATAGCATTATCTTCACTCATCCT</tr>
+<tr>                ******************************* ****************************</tr>
+<tr></tr>
+<tr>W_csw_2         CTTCAACTGGAAATGTATCGTTTAGCGAATAATGATATCAAGTCAAAAGCCAAACTAATT</tr>
+<tr>Y_csy_1         CTTCAACTGGAAATGTATCGTTTAGCGAATAATAATATTAAGTCAAAAGCCAAGCTAATT</tr>
+<tr>                ********************************* **** ************** ******</tr>
+<tr></tr>
+<tr>W_csw_2         GTACAAATTCATGGTAATTATATGGAAGAAATCCATAACTATGAAATTTTGGCACGAAAT</tr>
+<tr>Y_csy_1         GTACAAATTCATGGTAACTATATGGAAGAAATCCATAACTATGAAATTTTGGCACGAAAT</tr>
+<tr>                ***************** ******************************************</tr>
+<tr></tr>
+<tr>W_csw_2         ATCGATTATGTTGACTATCTTCAAACGGTATCTGATGAAATGCTGGAAGAAATGCATTCC</tr>
+<tr>Y_csy_1         ATCGATTATGTTGATTATCTTCAAACGGTATCTGATGAAATGCTGGAAGAAATGCATTCC</tr>
+<tr>                ************** *********************************************</tr>
+<tr></tr>
+<tr>W_csw_2         CATTTCAAAATCAAAAAAGACAAATTAGTTTTTATTCCAAACATCACTTATCCCATTTCA</tr>
+<tr>Y_csy_1         CATTTCAAAATCAAAAAAGACAAATTAGTTTTTATTCCAAACATCACTTATCCCATTTCA</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         TTAGAAAAAAAAGAAGCTGATTTCTTTATTAAGGATAATGAAGACATCGATAATGCTCAG</tr>
+<tr>Y_csy_1         TTAGAAAAAAAAGAAGCTGATTTCTTTATTAAGGATAATGAAGACATTGATAATGCTCAG</tr>
+<tr>                *********************************************** ************</tr>
+<tr></tr>
+<tr>W_csw_2         AAATTTAAACGTATCTCTATTGTTGGCAGCATTCAGCCAAGAAAAAACCAATTGGATGCC</tr>
+<tr>Y_csy_1         AAATTTAAACGTATCTCTATTGTTGGCAGTATTCAGCCAAGAAAAAACCAATTGGATGCC</tr>
+<tr>                ***************************** ******************************</tr>
+<tr></tr>
+<tr>W_csw_2         ATTAAAATCATCAATAAAATTAAAAATGAAAATTACATTTTACAGATATATGGCAAATCT</tr>
+<tr>Y_csy_1         ATTAAAATCATCAATAAAATTAAAAATGAAAATTACATTTTACAGATATATGGCAAATCT</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         ATTAATAAAGATTACTTTGAATTAATTAAAAAATATATTAAAGACAATAAGTTACAAAAC</tr>
+<tr>Y_csy_1         ATTAATAAAGATTACTTTGAATTAATTAAAAAATATATTAAAGACAATAAGTTACAAAAC</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         CGTATCTTATTCAAAGGTGAATCTTCCGAGCAGGAAATTTATGAAAATACAGATATCCTG</tr>
+<tr>Y_csy_1         CGTATCTTATTCAAAGGTGAATCTTCCGAGCAGGAAATTTATGAGAATACAGATATCCTA</tr>
+<tr>                ******************************************** ************** </tr>
+<tr></tr>
+<tr>W_csw_2         ATCATGACATCAGAAAGTGAGGGATTTCCATATATATTTATGGAAGGCATGGTGTATGAT</tr>
+<tr>Y_csy_1         ATCATGACATCTCAAAGCGAAGGCTTTGGTTATATATTTCTAGAGGGTATGGTGTACGAT</tr>
+<tr>                ***********  **** ** ** ***   ********* * ** ** ******** ***</tr>
+<tr></tr>
+<tr>W_csw_2         ATTCCAATCGTTGTATATGATTTTAAATATGGAGCGAATGATTACAGTAACTATAATGAA</tr>
+<tr>Y_csy_1         ATCCCTATCCTTGCCTATAATTTTAAATATGGAGCGAATGATTTTAGCAATTATAATGAA</tr>
+<tr>                ** ** *** ***  *** ************************  ** ** *********</tr>
+<tr></tr>
+<tr>W_csw_2         AATGGTTGTGTTTTTAAAACTGGTGATATTTCTGGAATGGCAAAAAAAATAATTGAGCTA</tr>
+<tr>Y_csy_1         AACGCTTCAGTTTTTAAAACTGGTGATATTTCTGGAATGGCAAAAAAAATAATTGAGCTA</tr>
+<tr>                ** * **  ***************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         TTAAATAACCCAGAAAAATATAAAGAATTAGTTCAATATAATCACAATCGCTTCTTAAAA</tr>
+<tr>Y_csy_1         TTAAATAACCCAGAAAAATATAAAGAATTAGTTCAATATAATCACAATCGCTTCTTAAAA</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         GAATATGCAAAAGATGTGGTTATGGCTAAATATTTCACTATTCTTCCGCGCAGCTTTAAT</tr>
+<tr>Y_csy_1         GAATATGCAAAAGATGTGGTTATGGCTAAATATTTCACTATTCTTCCGCGCAGCTTTAAT</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         AACGTATCATTATCGTCTGCTTTCAGCCGAAAAGAATTGGACGAATTCCAAAATATTACT</tr>
+<tr>Y_csy_1         AACGTATCATTATCGTCTGCTTTCAGCCGAAAAGAATTGGACGAATTCCAAAATATTACT</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         TTTTCTATTGAAGATTCTAATGATTTAGCTCATATTTGGAATTTCGAGCTAACCAATCCT</tr>
+<tr>Y_csy_1         TTTTCTATTGAAGATTCTAATGATTTAGCTCATATTTGGAATTTCGAGCTAACCAATCCT</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         GCACAAAATATGAATTTTTTTGCTTTAGTTGGCAAGCGAAAATTTCCAATGGATGCTCAT</tr>
+<tr>Y_csy_1         GCACAAAATATGAATTTTTTTGCTTTAGTTGGCAAGCGAAAATTTCCAATGGATGCTCAT</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         ATCCAAGGAACACAGTGTACGATTAAGATAGCTCATAAAAAGACAGGGAATTTATTGTCG</tr>
+<tr>Y_csy_1         ATCCAAGGAACACAGTGTACGATTAAGATAGCTCATAAAAAGACAGGGAATTTATTGTCG</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         CTTTTACTAAAAAAACGAAATCAGTTGAATTTATCAAGGGGATATACCTTAATTGCAGAA</tr>
+<tr>Y_csy_1         CTTTTACTAAAAAAACGAAATCAGTTGAATTTATCAAGGGGATATACCTTAATTGCAGAA</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         GATAATAGCTATGAAAAATATATTGGAGCAATATCTAATAAAGGTAACTTTGAAATTATT</tr>
+<tr>Y_csy_1         GATAATAGCTATGAAAAATATATTGGAGCAATATCTAATAAAGGTAACTTTGAAATTATT</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         GCAAATAAAAAGAGCTCATTAGTTACTATAAACAAAAGTACCTTAGAGTTGCATGAGATT</tr>
+<tr>Y_csy_1         GCAAATAAAAAGAACTCATTAGTTACTATAAACAAAAGTACCTTAGAGTTGCATGAGATT</tr>
+<tr>                ************* **********************************************</tr>
+<tr></tr>
+<tr>W_csw_2         CCCCATGAACTACATCAGAATAAATTACTGATTGCTTTACCCAACATGCAAACGCCTCTA</tr>
+<tr>Y_csy_1         CCCCATGAACTACATCAGAATAAATTACTGATTGCTTTACCCAACATGCAAACGCCTCTA</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         AAAATTACTGATGATAATTTAATACCTATCCAAGCCTCCATAAAATTAGAAAAGATTGGA</tr>
+<tr>Y_csy_1         AAAATTACTGATGATAATTTAATACCTATCCAAGCCTCCATAAAATTAGAAAAGATTGGA</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         AATACTTATTACCCATGTTTCTTGCCATCTGGCATATTTAATAATATCTGCTTAGATTAC</tr>
+<tr>Y_csy_1         AATACTTATTACCCATGTTTCTTGCCATCTGGCATATTTAATAATATCTGCTTAGATTAC</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         GGTGAAGAATCCAAAATTATTAATTTTAGTAAATATTCTTATAAATATATCTATGACTCA</tr>
+<tr>Y_csy_1         GGTGAAGAATCCAAAATTATTAATTTTAGTAAATATTCTTATAAATATATCTATGACTCA</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         ATTCGTCATATTGAGCAACATACAGATATATCGGATATTATCGTTTGCAATGTTTATTCT</tr>
+<tr>Y_csy_1         ATTCGTCATATTGAGCAACATACAGATATATCGGATATTATCGTTTGCAATGTTTATTCT</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         TGGGAACTTATTCGTGCCTCAGTTATTGAGAGCCTTATGGAATTTACCGGAAAATGGGAA</tr>
+<tr>Y_csy_1         TGGGAACTTATTCGTGCCTCAGTTATTGAGAGCCTTATGGAATTTACCGGAAAATGGGAA</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         AAACACTTTCAGACTTCTCCTAAAATTGATTATCGATTTGATCATGAAGGTAAGCGTTCG</tr>
+<tr>Y_csy_1         AAACACTTTCAGACTTCTCCTAAAATTGATTATCGATTTGATCATGAAGGTAAGCGTTCG</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         ATGGATGATGTCTTTTCAGAAGAAACATTTATTATGGAATTTCCGCGTAAAAATGGTATA</tr>
+<tr>Y_csy_1         ATGGATGATGTCTTTTCAGAAGAAACATTTATTATGGAATTTCCGCGTAAAAATGGTATA</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         GATAAGAAAACAGCAGCCTTCCAAAATATACCAAACAGTATTGTAATGGAGTATCCGCAG</tr>
+<tr>Y_csy_1         GATAAGAAAACAGCAGCCTTCCAAAATATACCAAACAGTATTGTAATGGAGTATCCGCAG</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         ACCAATGGTTACAGTATGCGCAGTCATTCACTGAAAAGTAATGTAGTTGCGGCAAAACAT</tr>
+<tr>Y_csy_1         ACCAATGGTTACAGTATGCGCAGTCATTCACTGAAAAGTAATGTAGTTGCGGCAAAACAT</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         TTTCTTGAAAAATTAAATAAAATTAAGGTAGATATTAAATTTAAAAAGCATGACCTTGCA</tr>
+<tr>Y_csy_1         TTTCTTGAAAAATTAAATAAAATTAAGGTAGATATTAAATTTAAAAAGCATGACCTTGCA</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         AACATCAAAAAAATGAATCGAATTATTTATGAGCATTTAGGCATTAACATAAATATCGAA</tr>
+<tr>Y_csy_1         AACATCAAAAAAATGAATCGAATTATTTATGAGCATTTAGGCATTAACATAAATATCGAA</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         GCATTTCTAAAACCACGATTAGAAAAATTTAAGCGTGAAGAAAAATATTTTCATGATTTC</tr>
+<tr>Y_csy_1         GCATTTCTAAAACCACGATTAGAAAAATTTAAGCGTGAAGAAAAATATTTTCATGATTTC</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         TTCAAAAGAAATAATTTTAAAGAGGTAATTTTTCCAAGCACTTATTGGAATCCAGGTATT</tr>
+<tr>Y_csy_1         TTCAAAAGAAATAATTTTAAAGAGGTAATTTTTCCAAGCACTTATTGGAATCCAGGTATT</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         ATTTGTGCTGCACATAAACAAGGTATTAAGGTATCTGATATTCAATATGCTGCCATTACT</tr>
+<tr>Y_csy_1         ATTTGTGCTGCACATAAACAAGGTATTAAGGTATCTGATATTCAATATGCTGCCATTACT</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         CCTTATCATCCTGCGTATTTTAAATCACCAAAATCACATTACGTTGCTGATAAATTGTTC</tr>
+<tr>Y_csy_1         CCTTATCATCCTGCGTATTTTAAATCACCAAAATCACATTACGTTGCTGATAAATTGTTC</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         TTATGGTCTGAATATTGGAATCATGAGCTTTTACCAAATCCAACACGAGAGATTGGTTCT</tr>
+<tr>Y_csy_1         TTATGGTCTGAATATTGGAATCATGAGCTTTTACCAAATCCAACACGAGAGATTGGTTCT</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         GGTGCCGCATATTGGTATGCATTAGATGATGTGAGATTTTCAGAAAAACTGAATTATGAC</tr>
+<tr>Y_csy_1         GGTGCCGCATATTGGTATGCATTAGATGATGTGAGATTTTCAGAAAAACTGAATTATGAC</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         TATATCTTTCTATCTCAAAGTAGGATTTCTTCGCGCTTGCTTAGTTTTGCAATTGAGTTT</tr>
+<tr>Y_csy_1         TATATCTTTCTATCTCAAAGTAGGATTTCTTCGCGCTTGCTTAGTTTTGCAATTGAGTTT</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         GCATTAAAAAATCCTCAACTACAGCTTTTATTTTCTAAGCATCCAGATGAAAATATAGAT</tr>
+<tr>Y_csy_1         GCATTAAAAAATCCTCAACTACAGCTTTTATTTTCTAAGCATCCAGATGAAAATATAGAT</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         TTAAAGAACAGAATTATTCCTGATAATCTTATAATCTCCACGGAATCTTCTATACAAGGC</tr>
+<tr>Y_csy_1         TTAAAGAACAGAATTATTCCTGATAATCTTATAATCTCCACGGAATCTTCTATACAAGGC</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         ATCAATGAATCTCGCGTTGCTGTAGGTGTTTATTCAACTAGCTTATTTGAGGCATTAGCA</tr>
+<tr>Y_csy_1         ATCAATGAATCTCGCGTTGCTGTAGGTGTTTATTCAACTAGCTTATTTGAGGCATTAGCA</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         TGCGGCAAACAAACTTTTGTTGTTAAATATCCGGGATATGAAATTATGTCAAATGAAATA</tr>
+<tr>Y_csy_1         TGCGGCAAACAAACTTTTGTTGTTAAATATCCGGGATATGAAATTATGTCAAATGAAATA</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         GATTCAGGGTTATTCTTTGCAGTAGAAACACCTGAAGAAATGCTTGAGAAAACAAGCCCG</tr>
+<tr>Y_csy_1         GATTCAGGGTTATTCTTTGCAGTAGAAACACCTGAAGAAATGCTTGAGAAAACAAGCCCG</tr>
+<tr>                ************************************************************</tr>
+<tr></tr>
+<tr>W_csw_2         AATTGGGTGGCTGTGGCAGATATTGAAAACCAGTTTTTTGGCCAAGAAAAATAA</tr>
+<tr>Y_csy_1         AATTGGGTGGCTGTGGCAGATATTGAAAACCAGTTTTTTGGCCAAGAAAAATAA</tr>
+</tr>                ******************************************************</tr>
+</table>

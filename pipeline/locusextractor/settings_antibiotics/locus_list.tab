@@ -1,0 +1,89 @@
+# locus	locus identifier						
+#URL	where to find known alleles for matching						
+#isORF	do we expect the allele to be an in-frame ORF						
+#basename	The prefix that is shared by all allele identifiers						
+#DNA_version=	The locus identifier for the DNA version of this peptide						
+#species	Which species we expect to find this in. Unimplemented feature to select a subset of loci						
+#expected	Whether we expect to find this gene in the genome. Controls whether warnings are generated when gene is not found						
+locus	URL	basename	isORF	isPeptide	DNA_version	species	expected
+#MLST							
+abcZ	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=abcZ	abcZ_				Nm	TRUE
+adk	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=adk	adk_				Nm	TRUE
+aroE	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=aroE	aroE_				Nm	TRUE
+fumC	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=fumC	fumC_				Nm	TRUE
+gdh	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=gdh	gdh_				Nm	TRUE
+pdhC	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=pdhC	pdhC_				Nm	TRUE
+pgm	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=pgm	pgm_				Nm	TRUE
+#Antigens							
+porA	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS1364	NEIS1364_	TRUE			Nm	TRUE
+porB	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS2020	NEIS2020_	TRUE			Nm	TRUE
+fetA	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS1963	NEIS1963_	TRUE			Nm	TRUE
+nadA	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS1969	NEIS1969_	TRUE			Nm	TRUE
+NadA_pep	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NadA_peptide	NadA_peptide_		TRUE	nadA	Nm	TRUE
+nhbA	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS2109	NEIS2109_	TRUE			Nm	TRUE
+NhbA_pep	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NHBA_peptide	NHBA_peptide_		TRUE	nhbA	Nm	TRUE
+fHbp	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=fHbp_allele	fHbp_allele_	TRUE			Nm	TRUE
+FHbp_pep	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=fHbp_peptide	fHbp_peptide_		TRUE	fHbp	Nm	TRUE
+PorA_VR1_pep	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=PorA_VR1	PorA_VR1_		TRUE	porA	Nm	TRUE
+PorA_VR2_pep	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=PorA_VR2	PorA_VR2_		TRUE	porA	Nm	TRUE
+FetA_VR_pep	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=FetA_VR	FetA_VR_F		TRUE	fetA	Nm	TRUE
+_porB	http://pubmlst.org/cgi-bin/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=%27porB	'porB_				Nm	TRUE
+#Nm sanity check							
+sodC	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS1339	NEIS1339_	TRUE			Nm	TRUE
+#Capsule specific							
+csaA	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS2157	NEIS2157_	TRUE	FALSE		Nm	
+csaB	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS2158	NEIS2158_	TRUE	FALSE		Nm	
+csaC	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS2159	NEIS2159_	TRUE	FALSE		Nm	
+csaD	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS2160	NEIS2160_	TRUE	FALSE		Nm	
+csxA	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS2187	NEIS2187_	TRUE	FALSE		Nm	
+csxB	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS2188	NEIS2188_	TRUE	FALSE		Nm	
+csxC	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS2189	NEIS2189_	TRUE	FALSE		Nm	
+csb	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS2161	NEIS2161_	TRUE	FALSE		Nm	
+csc	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS0051	NEIS0051_	TRUE	FALSE		Nm	
+csw	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS2162	NEIS2162_	TRUE	FALSE		Nm	
+csy	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS2163	NEIS2163_	TRUE	FALSE		Nm	
+#Antibiotics							
+gyrA-cur	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=gyrA	gyrA_				Nm	
+ponA	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS0414	NEIS0414_	TRUE			Nm	
+gyrA-var	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS1320	NEIS1320_	TRUE			Nm	
+parC	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS1525	NEIS1525_	TRUE			Nm	
+parE	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS1600	NEIS1600_	TRUE			Nm	
+folP	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS1609	NEIS1609_	TRUE			Nm	
+mtrR	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS1635	NEIS1635_	TRUE			Nm	
+penA-var	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS1753	NEIS1753_	TRUE			Nm	
+penA-cur	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=penA	penA_				Nm	
+rpoB	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=rpoB	rpoB_				Nm	
+#plasmid							
+plasmid_blam	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS2357	NEIS2357_	TRUE			Nm	
+plasmid_replicat	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS2358	NEIS2358_	TRUE			Nm	
+plasmid_tetM	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS2210	NEIS2210_	TRUE			Nm	
+oriT	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS2244	NEIS2244_	TRUE			Nm	
+# Hi MLST							
+Hi_adk	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_hinfluenzae_seqdef&page=downloadAlleles&locus=adk	adk_				Hi	TRUE
+atpG	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_hinfluenzae_seqdef&page=downloadAlleles&locus=atpG	atpG_				Hi	TRUE
+frdB	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_hinfluenzae_seqdef&page=downloadAlleles&locus=frdB	frdB_				Hi	TRUE
+fucK	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_hinfluenzae_seqdef&page=downloadAlleles&locus=fucK	fucK_				Hi	TRUE
+mdh	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_hinfluenzae_seqdef&page=downloadAlleles&locus=mdh	mdh_				Hi	TRUE
+pgi	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_hinfluenzae_seqdef&page=downloadAlleles&locus=pgi	pgi_				Hi	TRUE
+recA	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_hinfluenzae_seqdef&page=downloadAlleles&locus=recA	recA_				Hi	TRUE
+ftsI	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_hinfluenzae_seqdef&page=downloadAlleles&locus=ftsI	ftsI_					
+##capsule general							
+ctrA	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS0055	NEIS0055_	TRUE			Nm	TRUE
+ctrB	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS0056	NEIS0056_	TRUE			Nm	TRUE
+ctrC	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS0057	NEIS0057_	TRUE			Nm	TRUE
+ctrD	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS0058	NEIS0058_	TRUE			Nm	TRUE
+##capsule NmC non-unique							
+cssA	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS0054	NEIS0054_	TRUE				
+cssB	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS0053	NEIS0053_	TRUE				
+cssC	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS0052	NEIS0052_	TRUE				
+cssE	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS0050	NEIS0050_	TRUE				
+ctrG	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS0049	NEIS0049_	TRUE				
+###Ng antibiotics							
+penB	ng_penB.fasta	penB_	TRUE				
+rpsJ	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS0129	NEIS0129_	TRUE				
+rpsJng	rpsJng.fasta	rpsJng_	TRUE				
+23S	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=_23S_rRNA	23S_rRNA_					
+pilQ	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS0408	NEIS0408_	TRUE				
+rpsE	http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=downloadAlleles&locus=NEIS0149	NEIS0149_	TRUE				
+penAng	penAng.fasta	penA_					
+mtrRng	mtrRng.fasta	mtrR_					

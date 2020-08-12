@@ -1,0 +1,30 @@
+.run-name {
+  cursor: pointer;
+  color: black;
+  &:hover {
+    color: rgba(29, 73, 185, 1);
+    text-decoration: none;
+  }
+  word-break: break-all;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.run-table-container {
+  padding-top: 90px;
+}
+
+.ghost-box {
+  background-color: darkseagreen;
+  width: 250px;
+  text-align: center;
+  min-width: 250px;
+}
+
+.run-container {
+  overflow: auto;
+  height: 100vh;
+  padding-top: 90px;
+}

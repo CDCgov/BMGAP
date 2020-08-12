@@ -1,0 +1,55 @@
+qseqid	sseqid	pident	length	qle	slen	mismatch	gapopen	qstart	qend	sstart	send	evalue	bitscore	node	length	cov	paln
+sodC_NEIS1339_alignment_consensus_sequence	sodC_1	100.00	561	561	561	0	0	1	561	1	561	0.0	 1037	NEIS1339	561		100.00
+rfbC2_NEIS0065_alignment_consensus_sequence	rfbC2_8	92.78	540	540	540	39	0	1	540	1	540	0.0	  789	NEIS0065	540		100.00
+rfbC_NEIS0045_alignment_consensus_sequence	rfbC2_38	96.95	558	558	558	17	0	1	558	1	558	0.0	  937	NEIS0045	558		100.00
+rfbA_NEIS0046_alignment_consensus_sequence	rfbA_243	99.42	867	897	867	5	0	1	867	1	867	0.0	 1574	NEIS0046	897		100.00
+rfbB_NEIS0047_alignment_consensus_sequence	rfbB_97	99.91	1068	1068	1068	1	0	1	1068	1	1068	0.0	 1967	NEIS0047	1068		100.00
+galE2_NEIS0062_alignment_consensus_sequence	galE2_140	98.72	705	705	705	9	0	1	705	1	705	0.0	 1254	NEIS0062	705		100.00
+galE_NEIS0048_alignment_consensus_sequence	galE_343	97.55	1020	1020	1020	25	0	1	1020	1	1020	0.0	 1746	NEIS0048	1020		100.00
+A_csaA_NEIS2157_consensus_sequence	A_csaA_1	100.00	1119	1119	1119	0	0	1	1119	1	1119	0.0	 2067	csaA	1119		100.00
+A_csaB_NEIS2158_alignment_consensus_sequence	A_csaB_1	100.00	1638	1638	1638	0	0	1	1638	1	1638	0.0	 3025	csaB	1638	sequence	100.00
+A_csaC_NEIS2159_consensus_sequence	A_csaC_1	100.00	744	744	744	0	0	1	744	1	744	0.0	 1375	csaC	744		100.00
+A_csaD_NEIS2160_alignment_consensus_sequence	A_csaD_1	100.00	864	864	864	0	0	1	864	1	864	0.0	 1596	csaD	864	sequence	100.00
+B_csb_NEIS2161_alignment_consensus_sequence	B_csb_1	100.00	1488	1488	1488	0	0	1	1488	1	1488	0.0	 2748	csb	1488	sequence	100.00
+BCWY_cssA_NEIS0054_alignment_consensus_sequence	BCWY_cssA_2	100.00	1134	1134	1134	0	0	1	1134	1	1134	0.0	 2095	cssA	1134	sequence	100.00
+BCWY_cssB_NEIS0053_alignment_consensus_sequence	BCWY_cssB_1	100.00	687	687	687	0	0	1	687	1	687	0.0	 1269	cssB	687	sequence	100.00
+BCWY_cssC_NEIS0052_alignment_consensus_sequence	BCWY_cssC_2	100.00	1050	1065	1050	0	0	1	1050	1	1050	0.0	 1940	cssC	1065	sequence	100.00
+BCWY_ctrG_NEIS0049_alignment_consensus_sequence	BCWY_ctrG_5	99.79	954	979	954	2	0	1	954	1	954	0.0	 1753	ctrG	979	sequence	100.00
+C_csc_NEIS0051_alignment_consensus_sequence	C_csc_9	99.93	1490	1489	1490	0	1	1	1489	1	1490	0.0	 2745	csc	1489	sequence	100.00
+C_cssE_NEIS0050_alignment_consensus_sequence	C_cssE_1	100.00	1383	1383	1383	0	0	1	1383	1	1383	0.0	 2555	cssE	1383	sequence	100.00
+E_cseA_NEIS2165_alignment_consensus_sequence	E_cseA_1	100.00	1197	1197	1197	0	0	1	1197	1	1197	0.0	 2211	cseA	1197	sequence	100.00
+E_cseB_NEIS2166_alignment_consensus_sequence	E_cseB_1	100.00	639	639	639	0	0	1	639	1	639	0.0	 1181	cseB	639	sequence	100.00
+E_cseC_NEIS2167_alignment_consensus_sequence	E_cseC_2	100.00	1461	1461	1461	0	0	1	1461	1	1461	0.0	 2699	cseC	1461	sequence	100.00
+E_cseD_NEIS2168_alignment_consensus_sequence	E_cseD_7	100.00	2295	2295	2295	0	0	1	2295	1	2295	0.0	 4239	cseD	2295	sequence	100.00
+E_cseE_NEIS2169_alignment_consensus_sequence	E_cseE_149	98.81	843	843	843	10	0	1	843	1	843	0.0	 1506	cseE	843	sequence	100.00
+E_cseF_NEIS2170_consensus_sequence	E_cseF_1	100.00	1290	1290	1290	0	0	1	1290	1	1290	0.0	 2383	cseF	1290		100.00
+E_cseG_NEIS2171_alignment_consensus_sequence	E_cseG_6	100.00	948	948	948	0	0	1	948	1	948	0.0	 1751	cseG	948	sequence	100.00
+H_cshC_1	H_cshC_1	100.00	3453	3453	3453	0	0	1	3453	1	3453	0.0	 6377	cshC	3453		100.00
+H_cshD_1	H_cshD_1	100.00	1035	1035	1035	0	0	1	1035	1	1035	0.0	 1912	cshD	1035		100.00
+HZ_cszB_NEIS2174_alignment_consensus_sequence	HZ_cszB_2	90.85	1148	1291	1290	105	0	1	1148	1	1148	0.0	 1733	cszB	1291	sequence	88.99
+I_csiC_1	I_csiC_1	100.00	1000	1000	1000	0	0	1	1000	1	1000	0.0	 1847	csiC	1000		100.00
+K__cskC_1	I_csiC_1	99.80	1000	1000	1000	2	0	1	1000	1	1000	0.0	 1836		1000		100.00
+IK__csiA_1	IK__csiA_1	100.00	1000	1000	1000	0	0	1	1000	1	1000	0.0	 1847		1000		100.00
+IK_csiB_1	IK_csiB_1	100.00	1000	1000	1000	0	0	1	1000	1	1000	0.0	 1847	csiB	1000		100.00
+IK_csiD_1	IK_csiD_1	100.00	1000	1000	1000	0	0	1	1000	1	1000	0.0	 1847	csiD	1000		100.00
+IK_csiE_1	IK_csiE_1	100.00	972	972	972	0	0	1	972	1	972	0.0	 1796	csiE	972		100.00
+I_csiC_1	K__cskC_1	99.80	1000	1000	1000	2	0	1	1000	1	1000	0.0	 1836	csiC	1000		100.00
+K__cskC_1	K__cskC_1	100.00	1000	1000	1000	0	0	1	1000	1	1000	0.0	 1847		1000		100.00
+L_cslA_NEIS2184_alignment_consensus_sequence	L_cslA_6	99.00	1104	1104	1104	11	0	1	1104	1	1104	0.0	 1984	cslA	1104	sequence	100.00
+L_cslB_NEIS2185_consensus_sequence	L_cslB_2	99.96	2634	2634	2634	1	0	1	2634	1	2634	0.0	 4861	cslB	2634		100.00
+L_cslC_NEIS2186_alignment_consensus_sequence	L_cslC_1	99.85	651	651	651	1	0	1	651	1	651	0.0	 1199	cslC	651	sequence	100.00
+W_csw_NEIS2162_alignment_consensus_sequence	W_csw_1	100.00	3114	3114	3114	0	0	1	3114	1	3114	0.0	 5751	csw	3114	sequence	100.00
+Y_csy_NEIS2163_alignment_consensus_sequence	Y_csy_1	100.00	3114	3114	3114	0	0	1	3114	1	3114	0.0	 5751	csy	3114	sequence	100.00
+WY_cssF_NEIS2164_alignment_consensus_sequence	WY_cssF_2	100.00	636	636	636	0	0	1	636	1	636	0.0	 1175	cssF	636	sequence	100.00
+X_csxA_NEIS2187_alignment_consensus_sequence	X_csxA_1	100.00	1461	1461	1461	0	0	1	1461	1	1461	0.0	 2699	csxA	1461	sequence	100.00
+X_csxB_NEIS2188_alignment_consensus_sequence	X_csxB_2	99.91	1053	1053	1053	1	0	1	1053	1	1053	0.0	 1941	csxB	1053	sequence	100.00
+X_csxC_NEIS2189_consensus_sequence	X_csxC_1	100.00	771	771	771	0	0	1	771	1	771	0.0	 1424	csxC	771		100.00
+Z_cszC_NEIS2175_consensus_sequence	Z_cszC_3	100.00	3825	3825	3825	0	0	1	3825	1	3825	0.0	 7064	cszC	3825		100.00
+Z_cszD_NEIS2176_consensus_sequence	Z_cszD_2	100.00	1626	1626	1626	0	0	1	1626	1	1626	0.0	 3003	cszD	1626		100.00
+ctrA_NEIS0055_alignment_consensus_sequence	ctrA_5	100.00	1176	1187	1176	0	0	12	1187	1	1176	0.0	 2172	NEIS0055	1187		100.00
+ctrB_NEIS0056_alignment_consensus_sequence	ctrB_2	100.00	1164	1164	1164	0	0	1	1164	1	1164	0.0	 2150	NEIS0056	1164		100.00
+ctrC_NEIS0057_alignment_consensus_sequence	ctrC_118	99.62	798	798	798	3	0	1	798	1	798	0.0	 1459	NEIS0057	798		100.00
+ctrD_NEIS0058_alignment_consensus_sequence	ctrD_89	97.39	651	663	651	17	0	1	651	1	651	0.0	 1109	NEIS0058	663		100.00
+tex_NEIS0059_alignment_consensus_sequence	tex_48	99.60	2274	2274	2274	9	0	1	2274	1	2274	0.0	 4150	NEIS0059	2274		100.00
+ctrE_NEIS0066_alignment_consensus_sequence	ctrE_126	99.34	2115	2139	2115	14	0	19	2133	1	2115	0.0	 3829	NEIS0066	2139		100.00
+ctrF_NEIS0067_alignment_consensus_sequence	ctrF_103	99.84	1260	1265	1260	2	0	1	1260	1	1260	0.0	 2316	NEIS0067	1265		100.00

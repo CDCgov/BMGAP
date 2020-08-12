@@ -1,0 +1,39 @@
+.download-btn:hover {
+  cursor: pointer;
+  background-color: rgba(9, 53, 165, 1);
+}
+
+.download-btn {
+  position: fixed;
+  right: 20px;
+  top: 150px;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  background-color: rgba(29, 73, 185, 1);
+  color: #ebebeb;
+}
+
+.back-btn {
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  background-color: rgba(29, 73, 185, 1);
+  color: #ebebeb;
+}
+
+.back-btn.right {
+  position: fixed;
+  right: 20px;
+  top: 100px;
+}
+
+.back-btn.right-bottom {
+  position: fixed;
+  right: 20px;
+  top: 150px;
+}
+
+.back-btn.left {
+  position: fixed;
+  left: 20px;
+  top: 100px;
+}

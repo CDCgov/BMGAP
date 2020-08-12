@@ -1,0 +1,25 @@
+===========================
+To update these tables, go to the respective webpage at PubMLST. At the gene's main page, follow "Seach by sequence attributes". If you are at the search page, leave the search field blank and adjust the "Display" option to "all". Then press "submit". Jump to the bottom of the page (ctrl-end), and click the (Export) "Table" button. Then right click on "Tab-delimited text" and "save link as..." and place it in the "lookupTables" folder. If you want to be careful, save it under a new name, and then go modify the ..... file in settings.
+
+http://pubmlst.org/neisseria/
+http://pubmlst.org/neisseria/fHbp/
+http://pubmlst.org/perl/bigsdb/bigsdb.pl?db=pubmlst_neisseria_seqdef&page=alleleQuery&locus=fHbp_allele
+
+The only data in the nhbA file is peptide lookup.
+
+Save the file in the "LookupTables" subdirectory of LocusExtractor
+
+============================
+For LocusExtractor to interpret these files, they first must be listed in the file "locus2lookup.tab" in the LookupTables subdirectory. This is a tab-delimited file, with the format:
+
+fHbp	./BIGSdb_fHbp_table.txt
+
+The "locus" name must match the identifier used in the "Settings" folder.
+
+Within each lookup table, there must be a column called "allele_id" (lowercase). This is used as the lookup key. The remaining columns should have headers that match the headers on your export template.
+
+============================
+Fields listed in lookup2allele will be added to the allele export table, unmodified
+
+=============================
+The file locus2lookup2export identifies the fields that need to be added to the molecular export file

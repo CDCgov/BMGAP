@@ -1,0 +1,38 @@
+{
+  "author": "Bacterial Meningitis Lab @ CDC/DDID/NCIRD/MVPDB",
+  "dependencies": {
+    "archiver-promise": "^1.0.0",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.18.3",
+    "child_process": "^1.0.2",
+    "express": "^4.16.4",
+    "flat": "^4.0.0",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "json2csv": "^3.8.0",
+    "lodash": "^4.17.15",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.5.12",
+    "mongoose-paginate": "^5.0.3",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "nice-json2csv": "^0.2.2",
+    "pkginfo": "^0.4.1",
+    "swagger-jsdoc": "^3.4.0",
+    "tmp": "0.0.33",
+    "xlsx": "^0.13.0"
+  },
+  "description": "BMGAP Data API",
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "jshint": "^2.10.1",
+    "karma": "^4.4.1"
+  },
+  "main": "server.js",
+  "name": "BMGAP",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "version": "1.1.0"
+}

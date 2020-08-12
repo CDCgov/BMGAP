@@ -1,0 +1,8 @@
+locus	lookup	export
+Fhbp_pep	Novartis_variant	FHbp_protein_subvariant_Novartis
+#fHbp	peptide_id	FHbp_protein_subvariant_Oxford #This is handled directly in the code
+# (needs to confirm agreement with homology search and add flags if applicable)
+FHbp_pep	Novartis_variant_family	fHbp_DNA_allele_Novartis
+FHbp_pep	Pfizer_variant	fHbp_DNA_allele_Pfizer
+FHbp_pep	Pfizer_subfamily	FHbp_subfamily
+
