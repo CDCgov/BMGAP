@@ -1,0 +1,20 @@
+[
+	{
+		"_id" : ObjectId("5e728ed97e9e610e0ed77bce"),
+		"identifier" : "BM42520",
+		"Lab_ID" : "MDA20018912-MD-M03217-200304-_S8",
+		"Assembly_ID" : "MDA20018912-MD-M03217-200304-_S8",
+		"Run_ID" : "Nm_MD_20200318_2Feb",
+		"QC_flagged" : false,
+		"Submitter" : "MD",
+		"assemblyPath" : "/scicomp/groups/OID/NCIRD/DBD/MVPDB/ML/BMGAP/Instruments/external/MD/Nm_MD_20200318_2Feb/AssemblyCleanup/MDA20018912-MD-M03217-200304-_S8_cleaned.fasta",
+		"MLST" : "23",
+		"cc" : "CC23",
+		"Serogroup" : "Inconclusive",
+		"sample_order" : "8",
+		"Species" : "Neisseria_meningitidis",
+		"sequence_flagged" : false,
+		"assembly_flagged" : false,
+		"sequencer" : "MD"
+	}
+]

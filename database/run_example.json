@@ -1,0 +1,11 @@
+[
+	{
+		"_id" : ObjectId("5e68facf50eff1019e188dea"),
+		"run" : "200305_M04832_MiSeq_MI045",
+		"samples" : 14,
+		"sequencer" : "M04832",
+		"submitter" : "BML",
+		"date" : ISODate("2020-03-11T10:50:55.098Z"),
+		"analysis_running" : false
+	}
+]
