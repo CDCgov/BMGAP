@@ -10,7 +10,14 @@ The BMGAP analysis pipeline requires Python 3.6+ as well as a number of dependen
 
 The BMGAP analysis pipeline includes several purpose-built analysis tools, including BMScan, which uses MASH and a custom database to provide species identification for bacterial meningitis pathogens, LocusExtractor, which uses PubMLST references to identify MLSTs for both *Neisseria sp.* and *Haemophilus influenzae*, and PMGA, which identifies and annotates serogrouping/serotyping genes and MLST alleles.
 
-  
+## Access to BMGAP through the OAMD Portal
+
+BMGAP can be accessed online through the OAMD Portal (amdportal-sams.cdc.gov). To request access to BMGAP, please contact the BMGAP team at ymw8@cdc.gov to register for using the OAMD Portal. 
+
+Additional details on the account creation process can be found in the SAMS User Guide: [https://auth.cdc.gov/sams/SAMSUserGuide.pdf?disp=true]. 
+
+
+
 ## Public Domain Standard Notice
 This repository constitutes a work of the United States Government and is not
 subject to domestic copyright protection under 17 USC § 105. This repository is in
