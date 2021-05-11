@@ -10,7 +10,7 @@
     "fs": "0.0.1-security",
     "https": "^1.0.0",
     "json2csv": "^3.8.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "method-override": "^3.0.0",
     "mongoose": "^5.7.5",
     "mongoose-paginate": "^5.0.3",
