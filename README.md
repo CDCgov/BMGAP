@@ -12,7 +12,7 @@ The BMGAP analysis pipeline includes several purpose-built analysis tools, inclu
 
 ## Access to BMGAP through the OAMD Portal
 
-BMGAP can be accessed online through the OAMD Portal (amdportal-sams.cdc.gov). To request access to BMGAP, please contact the BMGAP team at Nadav Topaz - noc0cdc.gov to register for using the OAMD Portal. 
+BMGAP can be accessed online through the OAMD Portal (amdportal-sams.cdc.gov). To request access to BMGAP, please contact the BMGAP team at Shalabh Sharma - psa8@cdc.gov to register for using the OAMD Portal. 
 
 Additional details on the account creation process can be found in the SAMS User Guide: [https://auth.cdc.gov/sams/SAMSUserGuide.pdf?disp=true]. 
 
