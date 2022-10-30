@@ -27,7 +27,7 @@
     "eslint": "^5.13.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "jshint": "^2.10.1",
-    "karma": "^4.4.1"
+    "karma": "^6.4.1"
   },
   "main": "server.js",
   "name": "BMGAP",
