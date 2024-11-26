@@ -20,7 +20,7 @@
     "pkginfo": "^0.4.1",
     "swagger-jsdoc": "^3.4.0",
     "tmp": "0.0.33",
-    "xlsx": "^0.13.0"
+    "xlsx": "^0.17.0"
   },
   "description": "BMGAP Data API",
   "devDependencies": {
